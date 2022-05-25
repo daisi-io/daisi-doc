@@ -1,0 +1,36 @@
+# Data store  
+
+!!! note
+    A personal access token is required for share data access
+
+```python
+from pydaisi import SharedDataClient
+sd = SharedDataClient()
+
+# load the root directory
+folder = sd.Folder("/")
+
+# create new folder relative to folder
+new_folder = folder.create("new_folder")
+
+# upload file
+sd.upload_file("/shared data/folder/path", "/local/file/path")
+sd.put_object("/shared data/folder/path", <object bytes>, "file name")
+
+# download file
+sd.download_file("/shared data/file/path", "/local/path")
+obj = sd.download_fileobj("/shared data/file/path")
+
+# list contents
+folder = sd.Folder("/shared data/folder/path")
+for f in folder.list():
+    print(f.name)
+
+# delete a file
+file = sd.File("/shared data/file/path")
+file.delete()
+
+# delete a folder 
+folder = sd.Folder("/shared data/folder/path")
+folder.delete()
+```
