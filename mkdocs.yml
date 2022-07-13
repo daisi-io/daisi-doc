@@ -1,0 +1,23 @@
+site_name: Daisi documentation
+
+theme:
+  name: material
+  logo: assets/daisi-white.png
+  palette:
+    scheme: slate
+    primary: light green
+    accent: teal
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.superfences 
+  - admonition
+  - pymdownx.details
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - toc:
+      permalink: true
+  - attr_list
+  - md_in_html
+
+  
