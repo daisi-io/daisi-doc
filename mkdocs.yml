@@ -19,6 +19,5 @@ markdown_extensions:
       permalink: true
   - attr_list
   - md_in_html
-repo_url: https://community.daisi.io
-repo_name: Discourse Community site
+
   

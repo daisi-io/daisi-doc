@@ -1,4 +1,4 @@
-# Introduction
+# Getting started
 
 **Daisi** [(app.daisi.io)](https://app.daisi.io) is a scientific Cloud Computing platform running Python serverless functions, named *Daisies*.  
 
@@ -59,3 +59,11 @@ retrieved by querying its `#!python .value` attribute.
 
 !!! note
     Public Daisies can be called without being authentified. Private Daisies shared within a team require authentication (see the [Authentication](1.authentication.md) section)
+
+### Daisies can also be apps !
+
+You can give a nice front end to your Daisies, and the platform currently supports Streamlit (more frameworks to come).
+And convert your Daisi into a fully deployed app with an API for
+computer access....
+
+Check this Daisi: ["Print Hello App"](https://app.daisi.io/daisies/b8adce0f-5f3e-4885-953f-01ddcbb12e66/info)
