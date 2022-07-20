@@ -350,6 +350,13 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#resourceusage-limits" class="md-nav__link">
+    Resource/Usage Limits
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#testing-and-debugging" class="md-nav__link">
     Testing and debugging
   </a>
@@ -497,6 +504,13 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#resourceusage-limits" class="md-nav__link">
+    Resource/Usage Limits
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#testing-and-debugging" class="md-nav__link">
     Testing and debugging
   </a>
@@ -533,6 +547,14 @@
 
 <h1 id="good-practices-and-tips">Good practices and tips<a class="headerlink" href="#good-practices-and-tips" title="Permanent link">&para;</a></h1>
 <p>Here below are some good practices to make sure that your Daisies perform at best:</p>
+<h2 id="resourceusage-limits">Resource/Usage Limits<a class="headerlink" href="#resourceusage-limits" title="Permanent link">&para;</a></h2>
+<p>There are limits to the maximum amount of usage of a Daisi. These currently are:</p>
+<ul>
+<li>CPU Usage: 1800 seconds of CPU time per execution</li>
+<li>Memory Usage: 8GB of memory consumed per execution</li>
+<li>Disk Usage: 80,000 open files per execution</li>
+</ul>
+<p>These limits are intnetionally set high enough to enable nearly all practical use-cases for Daisies, but if very large deep learning models are used or significant data is consumed / produced, you may need to adjust your Daisi code to satisfy these constraints.</p>
 <h2 id="testing-and-debugging">Testing and debugging<a class="headerlink" href="#testing-and-debugging" title="Permanent link">&para;</a></h2>
 <p>The general rule is that your code should first work as expected in your
 workspace, before being pushed to the Daisi platform.
