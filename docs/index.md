@@ -37,7 +37,7 @@ Any regular Python code can be turned into a *Daisi* by simply registering its G
 
     ```
 
-Check the code of this Daisi on app.daisi.io: ["Print Hello"](https://app.daisi.io/daisies/c8907e10-f562-4c5f-a26d-ff37afd9de42/info).  
+Check the code of this Daisi on app.daisi.io: ["Print Hello"](https://app.daisi.io/daisies/a9b1ff77-6eb0-4bd7-b804-a5a2ef5eba7f/info).  
 And browse [app.daisi.io](https://app.daisi.io) to more discover Daisies !
 
 ### What just happened ? Cloud Computing made easy !
@@ -66,4 +66,4 @@ You can give a nice front end to your Daisies, and the platform currently suppor
 And convert your Daisi into a fully deployed app with an API for
 computer access....
 
-Check this Daisi: ["Print Hello App"](https://app.daisi.io/daisies/b8adce0f-5f3e-4885-953f-01ddcbb12e66/info)
+Check this Daisi: ["Print Hello App"](https://app.daisi.io/daisies/4ad0b3ee-7e9f-48ea-b017-114f43a1e672/streamlit)
